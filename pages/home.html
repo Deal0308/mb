@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+
+<h1>Home</h1>
+<p>
+    Welcome to our message board!
+</p>
+<p>
+    You can create new posts by visiting<a href="{% url 'new' %}">This link</a> page.
+</p>
+
+{% endblock content %}

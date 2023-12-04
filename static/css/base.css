@@ -1,0 +1,36 @@
+h1 {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    font-weight: normal;
+}
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 100%;
+}
+
+p {
+    color: #666;
+    font-size: 80%;
+}
+nav {
+    margin-top: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.navbar {
+    background-color: #5f2780;
+    color: #070202;
+}
+.navbar .navbar-brand {
+    color: #070202;
+}
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+    color: #070202;
+}
+.navbar .navbar-nav .active a, .navbar .navbar-nav .active a:hover, .navbar .navbar-nav .active a:focus {
+    color: #ffffff;
+    background-color: #5f2780;
+}
